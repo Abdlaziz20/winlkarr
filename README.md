@@ -240,7 +240,7 @@ flowchart LR
   subgraph SYS[Bus Tracking API]
     UC_Register((S'inscrire))
     UC_Login((Se connecter))
-    UC_Me((Voir profil (me)))
+    UC_Me((Voir profil me))
 
     UC_UpdateMe((Modifier mon profil))
     UC_DeleteMe((Supprimer mon compte))
@@ -364,3 +364,4 @@ flowchart LR
 - No authentication is used, as requested.
 - Driver location sharing uses high-accuracy fused location updates.
 - If google-services.json is missing, app still builds, but Firebase features are disabled.
+
